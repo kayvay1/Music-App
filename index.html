@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="lefth">
+            <h1>Music <span>By Anil Kay</span></h1>
+        </div>
+        <div class="righth">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Song</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Write Us</a>
+            </nav>
+            <i class="fa fa-bars" id="bars"></i>
+        </div>
+        
+    </header>
+
+    <div class="inputdiv">
+        <i class="fa fa-search" id="searchsong">  </i>    
+        <input type="text" name="songsearch" id="songsearch" placeholder="Search Songs" value="">    
+    </div>
+    <p class="searchinglist"> </p>
+
+    <div id="songcards">
+        <div id="songcard">
+
+        </div>
+    </div>
+<br><br><br><br>
+    <div class="player">
+        <div class="playerdata">
+            <marquee behavior="" direction="">
+                <h4 class="playersong"> </h4>
+            </marquee>
+
+        </div>
+        <audio id="audio-player" controls> 
+
+        </audio>
+    </div>
+
+    <div id="playimgdiv"> 
+        <p style="text-align: end; background-color: white; color: black;"> Click To Drop <i id="dropbtn" class="fa fa-sort-desc" style="font-size: 25px; position: relative; right: 0; background-color: white; color: black; border-radius: 100%; padding: 20px;"></i></p>
+        <img src="" alt="" id="playimg" width="100%">
+        <div class="playdivcenter">
+            <img src="" alt="" id="playcenterimg" style="width: 100%;">
+        </div>
+
+    </div>
+
+
+    
+
+
+
+    <!-- <script src="./script.js"></script> -->
+    <script src="./script2.js"></script>
+    
+</body>
+</html>
